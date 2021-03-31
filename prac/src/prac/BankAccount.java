@@ -20,6 +20,13 @@ public class BankAccount {
 		available_bal=newbal;
 	}
 	
+	void withdraw(int with)
+	{
+		int newbal;
+		newbal=available_bal-with;
+		available_bal=newbal;
+	}
+	
 	void display()
 	{
 		System.out.println("Bank name: " +bank_name);
